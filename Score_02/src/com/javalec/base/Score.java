@@ -7,6 +7,7 @@ public class Score {
 	public static void main(String[] args) {
 		// 10개의 정수(0점부터 99점)을 입력받아 ㅈㅁ수의 분포를 10점 간격의 등급으로
 		// 된 히스토그램을 표시하라.
+		// 히스토그램 : 데이터의 빈도 수를 알려주는 그래프
 		Scanner scan = new Scanner(System.in);
 		
 		int inputScore[] = new int[10];

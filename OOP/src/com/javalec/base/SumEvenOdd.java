@@ -28,7 +28,6 @@ public class SumEvenOdd {
 		}else {
 			str = "홀수";
 		}
-		
 		return str;
 	}
 	

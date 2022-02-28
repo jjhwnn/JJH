@@ -19,13 +19,13 @@ public class Main {
 		
 		int i=1, j=500;
 		
-		SumEvenOdd sumEvenOdd = new SumEvenOdd(); // 객체(인스턴스) 생성
+		Sum sum = new Sum();
+		EvenOdd evenOdd = new EvenOdd();
 		
-		int sum = sumEvenOdd.sumCalc(i, j);
-		String result = sumEvenOdd.evenOdd(sum);
+		int sum1 = sum.sumCalc(i, j);
 		
-		System.out.println(i + "~" + j + "의 합은 " + sum + "입니다.");
-		System.out.println(result + " 입니다.");
+		System.out.println(i + " ~ " + j + "합은 : " + sum1);
+		System.out.println(evenOdd.evenOdd(sum1));
 		
 	}
 

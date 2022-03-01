@@ -14,7 +14,7 @@ public class Delete {
 		int index;
 		
 		//숫자 갯수 입력, 갯수만큼의 숫자 입력
-		System.out.println("입력할 숫자의 갯수? :");
+		System.out.print("입력할 숫자의 갯수? :");
 		count = scan.nextInt();
 		
 		System.out.println(count + "개의 숫자를 입력하세요!: ");
@@ -23,18 +23,17 @@ public class Delete {
 			number[i] = scan.nextInt();
 		}
 		
-		//삭제할 숫자 인덱스 입력
+		//삭제할 숫자 인덱스 입력 deletedelete
 		System.out.print("몇번째의 숫자를 삭제 하시겠습니까? :");
 		index = scan.nextInt();
 		
-		for(int i = index-1; i < count-1; i++) {
-			number[i-1] = number[i];
+		for(int i = index-1; i <= count-1; i++) {
+			number[i] = number[i+1];
 		}
-		
 		
 		//결과 출력
 		System.out.println("--------- 결과 ---------");
-		for(int i=0; i < count; i++) {
+		for(int i=0; i < count-1; i++) {
 			System.out.println(number[i]);
 		}
 		

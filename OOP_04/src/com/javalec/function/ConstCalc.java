@@ -14,7 +14,8 @@ public class ConstCalc {
 		this.num1 = num1;
 		this.num2 = num2;
 	}
-	
+
+
 	// add
 	public int addition() {
 		return num1+num2;

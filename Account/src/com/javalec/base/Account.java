@@ -11,8 +11,8 @@ public class Account {
 		// 변수 선언
 		Scanner scan = new Scanner(System.in);
 		int selNum; 	// 항목 선택 변수
-		int[] clientNumList = {1, 2, 3, 4, 5}; // 고객 번호 리스트 배열변수
-		int[] money = new int[5];	// 고객별 잔액 리스트 배열변수
+		int[] clientNumList = {1, 2, 3, 4, 5}; // 고객 번호 리스트
+		int[] money = new int[5];	// 고객별 잔액 리스트 
 		int searchClientNum;	// 검색할 고객번호 변수
 		int withdrawMoney;	// 출금할 금액 받아오는 변수
 		

@@ -20,6 +20,7 @@ public class Main {
 		int i=1, j=500;
 		
 		Sum sum = new Sum();
+
 		EvenOdd evenOdd = new EvenOdd();
 		
 		int sum1 = sum.sumCalc(i, j);

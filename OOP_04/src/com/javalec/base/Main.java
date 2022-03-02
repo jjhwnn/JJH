@@ -89,7 +89,6 @@ public class Main {
 		System.out.printf("%d / %d = %.2f\n", num1, num2, calc.division());
 		
 		
-		
 	}
 
 }

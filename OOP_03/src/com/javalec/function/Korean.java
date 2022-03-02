@@ -11,12 +11,17 @@ public class Korean {
 	public Korean() {
 		
 	}
-	
-	
-	// Method					Parameter
-	public void printName(String name1, String phone1) {
-		name = name1;
-		phone = phone1;
+
+	public Korean(String name, String phone) {
+		super();
+		this.name = name;	// this : 필드를 가리켜줌
+		this.phone = phone;
+	}
+
+
+
+	// Method					
+	public void printName() { // 메소드 괄호 안에는 파라미터값이라고 부른
 		System.out.println("Nation : " + nation);
 		System.out.println("Name : " + name);
 		System.out.println("Phone : " + phone);

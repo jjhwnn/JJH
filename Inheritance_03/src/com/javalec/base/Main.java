@@ -40,6 +40,7 @@ public class Main {
 		StoreHQ[] store = {new StoreHQ(), new StoreShop1(), new StoreShop2(), new StoreShop3()};
 		
 		for(int i=0; i<store.length; i++) {
+			
 			store[i].orderKim();
 			store[i].orderBu();
 			store[i].orderBi();

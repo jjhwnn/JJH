@@ -7,9 +7,8 @@ public class Solution {
 			int x = 121;
 			boolean check = false;
 			
-		    System.out.print("Input : " + x);
+		    System.out.println("Input : " + x);
 
-			
 			Solution solution = new Solution();
 			check = solution.isPalindrome(x);
 			

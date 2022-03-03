@@ -6,8 +6,15 @@ public class StoreShop1 extends StoreHQ {
 		
 	}
 	
+	public void order() {
+		super.orderKim();
+		this.orderKim();
+	}
+	
+	// 김치찌개 4500원
 	@Override
 	public void orderKim() {
+		super.orderKim();
 		System.out.println("김치찌개(Shop1) : 4500원");
 	}
 	

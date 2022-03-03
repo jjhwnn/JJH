@@ -45,6 +45,7 @@ public class Main {
 			store[i].orderBi();
 			store[i].orderSoom();
 			store[i].orderKong();
+			System.out.println("-------------------");
 		}
 		
 	}

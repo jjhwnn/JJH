@@ -9,13 +9,13 @@ public class Ex01 {
 		// 몇 개의 숫자를 입력한지 결정한 후
 		// 숫자를 입력하고 이중 필요없는 숫자의 위치를 정해 삭제
 		
-		// 변수 선언
+		// 변수(객체) 선언
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();
 		Scanner scan = new Scanner(System.in);
 		int addNum;
 		int delNum;
 		
-		// ArrayList 데이터 입력받
+		// ArrayList 데이터 입력받기
 		System.out.println("5개의 숫자를 입력하세요!:");
 		for(int i = 0; i < 5; i++) {
 			System.out.print(i+1+"의 숫자:");

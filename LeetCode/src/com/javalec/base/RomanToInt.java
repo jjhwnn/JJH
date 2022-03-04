@@ -39,13 +39,14 @@ public class RomanToInt {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String s = "IV";
+		String s = "IVC";
 		
 		//('I', 'V', 'X', 'L', 'C', 'D', 'M').
-		int index =0;
 		int len = s.length();
 		int result =0;
 		
+		
+		//charAt() 문자열을 하나하나씩 받아서 인덱스로 반환해주는 메소드
 		for(int i = 0; i<len ; i++) {
 			if(len -1 - i >= 1) {
 				switch(s.charAt(i)) {

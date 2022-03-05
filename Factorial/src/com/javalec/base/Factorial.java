@@ -14,14 +14,13 @@ public class Factorial {
 		
 		System.out.print("Input your decimal no. ");
 		factorial = scan.nextInt();
-
-		for(int i = factorial-1; i >= 1; i--) {
-
-			factorial *= i;
-			factorialNumber++;
+		
+		for(int i=1; i<=factorial; i++) {
+			
+			factorialNumber *= i;
 		}
 		
-		System.out.println(factorialNumber + "'s factorial value = " + factorial);
+		System.out.println("factorial value = " + factorialNumber);
 		
 	}
 

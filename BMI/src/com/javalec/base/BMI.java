@@ -51,7 +51,6 @@ public class BMI {
 			
 		}
 	
-		System.out.println(2^2);
 	}
 
 	

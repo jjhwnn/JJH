@@ -23,7 +23,7 @@ public class Score {
 			System.out.println(subject[i] + "의 성적을 입력: ");
 			
 			for(int j=0; j<student.length; j++) {
-				System.out.print(student[j] + "의 성적은 : ");
+				System.out.print("no" + j+1 + "의 성적은 : ");
 				score[j] = scan.nextInt();
 				kor[i] = score[j];
 				eng[i] = score[j];

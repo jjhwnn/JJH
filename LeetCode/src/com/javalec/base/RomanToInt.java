@@ -39,7 +39,7 @@ public class RomanToInt {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String s = "IVC";
+		String s = "MCMXCIV";
 		
 		//('I', 'V', 'X', 'L', 'C', 'D', 'M').
 		int len = s.length();

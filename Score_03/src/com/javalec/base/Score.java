@@ -12,7 +12,7 @@ public class Score {
 		
 		String[] subject = {"Korean", "English", "Mathmatics"};
 		String[] student = {"No1", "No2", "No3", "no4"};
-		int[] score = new int[4];
+		int score;
 		int[] kor = new int[4];
 		int[] eng = new int[4];
 		int[] mat = new int[4];
@@ -23,12 +23,12 @@ public class Score {
 			System.out.println(subject[i] + "의 성적을 입력: ");
 			
 			for(int j=0; j<student.length; j++) {
-				System.out.print("no" + j+1 + "의 성적은 : ");
-				score[j] = scan.nextInt();
-				kor[i] = score[j];
-				eng[i] = score[j];
-				mat[i] = score[j];
-				total[j] += score[j];
+				System.out.print("no" + (j+1) + "의 성적은 : ");
+				score = scan.nextInt();
+				kor[j] = score;
+				eng[j] = score;
+				mat[j] = score;
+				total[j] += score;
 			}
 		}
 		

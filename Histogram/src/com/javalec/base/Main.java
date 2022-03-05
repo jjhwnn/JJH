@@ -13,6 +13,7 @@ public class Main {
 		String[] histo = new String[10];
 		int score;
 		
+		// histo 널값 초기화
 		for(int i=0; i<histo.length; i++) {
 			histo[i] = "";
 		}

@@ -13,20 +13,22 @@ public class Main {
 		String[] histo = new String[10];
 		int score;
 		
-		String count = "";
+		for(int i=0; i<histo.length; i++) {
+			histo[i] = "";
+		}
 		
 		System.out.println("Input score : ");
 		for(int i =0; i < histo.length; i++) {
+			
 			System.out.print(i+1+"의 score :");
 			score = scan.nextInt();
-			
-			
+			histo[score/10] += "#";
 
 		}
 		
 		System.out.println("--------- Histogram ---------");
-		for(int i=90; i>=0; i--) {
-			System.out.println(i + " : " + count);
+		for(int i=90; i>=0; i-=10) {
+			System.out.println(i + " : " + histo[i/10]);
 		}
 
 		

@@ -10,6 +10,7 @@ public class Main {
 		System.out.println("Add :" + (i + j));
 		System.out.println("Sub :" + (i - j));
 		System.out.println("Mul :" + (i * j));
+		
 		try {
 			System.out.println("Div :" + (i / j));
 		} catch(Exception e) {

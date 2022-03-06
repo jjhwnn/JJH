@@ -52,8 +52,8 @@ public class Main extends JFrame {
 		JButton btnNewButton = new JButton("OK");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				showMessage();
 				
+				showMessage();
 			}
 		});
 		btnNewButton.setBounds(172, 158, 117, 29);

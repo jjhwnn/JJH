@@ -30,7 +30,6 @@ public int searchInsert(int[] nums, int target) {
                 // nums배열을 모두 돌았는데 target이 존재하지 않을때
                 // 그리고 타겟이 nums배열보다 크다면 해당 nums 인덱스 다음 번지수를 result에 대입
             }else if(nums[nums.length-1] != target && nums[i] < target) {
-            	
     			result = i+1;
             }
             

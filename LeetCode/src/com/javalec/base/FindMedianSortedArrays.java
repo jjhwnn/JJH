@@ -6,8 +6,10 @@ public class FindMedianSortedArrays {
 
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // sort
-    	// 모두
+    	// 내림차순 : Arrays.sort(arr,Collections.reverseOrder());
     	
+		// 
+		
     	// 중앙값을 받을 변수 
     	double median = 0;
     	
@@ -24,7 +26,7 @@ public class FindMedianSortedArrays {
         	merge[nums1.length+j] = nums2[j];
         }
         
-        // Arrays 의 sort메서드를 통해 오름차순? 재정렬
+        // Arrays 의 sort메서드를 통해 오름차순 재정렬
         Arrays.sort(merge);
         
         // merge의 인덱스 길이가 홀수일때 중앙값 median에 입력

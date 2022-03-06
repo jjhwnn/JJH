@@ -5,7 +5,13 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		// ArrayList 메소드 종류
+		// add()
+		// set(indexNum, 리터럴)
+		// toString() : default
+		// remove(index)
+		// size() 
+
 		System.out.println(">>>> ArrayList <<<<");
 		
 		// 구성

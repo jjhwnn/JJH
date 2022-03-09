@@ -7,7 +7,7 @@ public class MergeTwoLists {
 
     	int val=1;
     	
-        list1 = new ListNode(val);
+        list1 = new ListNode(val, new ListNode(val, new ListNode()));
     	
         
         
